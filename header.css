@@ -1,0 +1,17 @@
+@import url(./main.css);
+
+.cabecalho {
+    border-bottom: 4px solid var(--verde);
+    border-radius: 10px;
+    background-color: var(--cor-do-cabecalho);
+    padding: 0.5em;
+    display: flex;
+    margin-top: 0.5em;    
+}
+
+.cabecalho-link {
+    border: 2px solid var(--verde);
+    border-radius: 25%;
+    padding: 2px 4px;
+    color: var(--verde);
+}

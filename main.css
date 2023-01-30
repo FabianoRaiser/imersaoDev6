@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap');
+@import url(./header.css);
+
+:root {
+    --cor-do-cabecalho: #1E5128;
+    --cor-de-fundo: #191A19;
+    --verde: #4E9F3D;
+    --pastel: #D8E9A8;
+    --font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-family);
+}
+
+.alura-logo {
+    width: 30vw;
+    align-self: center;
+    margin: 1em 9em -2em 0;
+}
+
+.page-logo {
+    width: 50vw;
+    margin-top: 2em;
+    align-self: center;
+}
+
+.titulo {
+    color: var(--pastel);
+    display: flex;
+    align-items: center;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lista {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.lista-itens {
+    display: inline-block;
+    background-color: var(--cor-do-cabecalho);
+    border-bottom: 2px solid var(--verde);
+    border-radius: 10px;
+    margin-top: 1em;
+    width: 40vw;
+    padding: 1em;
+}
+
+.lista-links {
+    color: var(--pastel);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.rodape {
+    color: var(--pastel);
+    position: relative;
+    top: 5vh;
+    text-align: center;
+}
