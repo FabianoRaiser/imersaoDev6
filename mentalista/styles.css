@@ -1,0 +1,108 @@
+@import url(../header.css);
+
+:root {
+    --cor-borda: #4d50fa;
+    --cor-fundo: #0c1d81;
+    --cor-fonte: #ffffff;
+
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.cabecalho {
+    background-color: var(--cor-fundo);
+    border-color: var(--cor-borda);
+}
+
+.cabecalho-link {
+    border-color: var(--cor-borda);
+    color: var(--cor-borda);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 40vh;
+}
+
+.inputs-titulo, .input-intervalo {
+    color: var(--cor-fonte);
+    font-weight: 700;
+}
+
+.input-chute {
+    background-color: transparent;
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--cor-fonte);
+}
+
+
+.botao-chute {
+    background-color: transparent;
+    color: var(--cor-fonte);
+    font-size: 1em;
+    font-weight: 700;
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    padding: 0 0.5em;
+}
+
+.botao-chute:hover {
+    background-color: var(--cor-fundo);
+    border-color: var(--cor-fonte);
+}
+
+.resultado {
+    border: 2px solid var(--cor-borda);
+    margin-top: 1em;
+    display: inline-block;
+    padding: 0.25em;
+}
+
+.resultado__titulo {
+    color: var(--cor-fonte);
+}
+
+.resultado__dica {
+    color: var(--cor-fonte);
+}
