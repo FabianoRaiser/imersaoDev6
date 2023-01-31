@@ -1,20 +1,20 @@
 @import url(../header.css);
 
 :root {
-    --violeta: #a159ff;
-    --violeta-escuro: #592f72;
-    --branco: #ffffff;
+  --cor-borda: #a159ff;
+  --cor-fundo: #592f72;
+  --cor-fonte: #ffffff;
 
 }
 
 .cabecalho {
-  background-color: var(--violeta-escuro);
-  border-color: var(--violeta);
+  background-color: var(--cor-fundo);
+  border-color: var(--cor-borda);
 }
 
 .cabecalho-link {
-  border-color: var(--violeta);
-  color: var(--violeta);
+  border-color: var(--cor-borda);
+  color: var(--cor-borda);
 }
 
 body {
@@ -37,12 +37,12 @@ body {
   }
   
   .page-title {
-    color: var(--branco);
+    color: var(--cor-fonte);
     margin: 0 0 5px;
   }
   
   .page-subtitle {
-    color: var(--branco);
+    color: var(--cor-fonte);
     margin-top: 5px;
   }
   
@@ -83,18 +83,18 @@ body {
     background-color: #a159ff;
     padding: 0.5em;
     border-radius: 5px;
-    color: var(--branco);
+    color: var(--cor-fonte);
   }
 
   .input-distancia {
     background: transparent;
-    border: 2px solid var(--branco);
+    border: 2px solid var(--cor-fonte);
     border-radius: 5px;
     padding: 0.5em;
     font-size: 16px;
     font-weight: 700;
     font-family: "Roboto Mono", monospace;
-    color: var(--branco);
+    color: var(--cor-fonte);
     width: 5em;
   }
 
@@ -102,8 +102,8 @@ body {
     margin-top: 1em;
     padding: 0.5em;
     background: transparent;
-    border: 1px solid var(--branco);
-    color: var(--branco);
+    border: 1px solid var(--cor-fonte);
+    color: var(--cor-fonte);
     font-family: "Roboto Mono", monospace;
     font-size: 1em;
     border-radius: 5px;
@@ -112,15 +112,15 @@ body {
 
   .btn-converter:hover {
     font-weight: 700;
-    border: 2px solid var(--branco);
-    background-color: var(--violeta);
+    border: 2px solid var(--cor-fonte);
+    background-color: var(--cor-borda);
   }
 
   .resultado-conversor {
-    border: 2px solid var(--violeta);
+    border: 2px solid var(--cor-borda);
     border-radius: 5px;
-    color: var(--branco);
-    background-color: var(--violeta-escuro);
+    color: var(--cor-fonte);
+    background-color: var(--cor-fundo);
     font-size: 1em;
     font-weight: 700;
     padding: 0.25em;
