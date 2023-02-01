@@ -1,0 +1,73 @@
+@import url(../header.css);
+
+:root {
+    --cor-borda: #4d50fa;
+    --cor-fundo: #0c1d81;
+    --cor-fonte: #ffffff;
+}
+
+.cabecalho {
+    background-color: var(--cor-fundo);
+    border-color: var(--cor-borda);
+}
+
+.cabecalho-link {
+    border-color: var(--cor-borda);
+    color: var(--cor-borda);
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: var(--cor-fonte);
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: var(--cor-fonte);
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+
+  .livros {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2em;
+    max-width: min-content;
+  }
+
+  .livro-titulo {
+    color: var(--cor-fonte);
+  }
